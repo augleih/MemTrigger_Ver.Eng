@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/btn_bg_ex"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text=" 녹음 시간  16:00 8월 11일 "
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/btn_bg_ex"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="알림 없음"
+        android:textSize="30dp" />
+
+    <ImageButton
+        android:id="@+id/backImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#00000000"
+        android:src="@drawable/back_btn"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/text2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
+
+</RelativeLayout>

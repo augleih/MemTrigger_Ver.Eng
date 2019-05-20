@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../MemoryTrigger-English.iml" filepath="$PROJECT_DIR$/../MemoryTrigger-English.iml" />
+      <module fileurl="file://E:\MemoryTrigger-English\MemoryTrigger-Korea.iml" filepath="E:\MemoryTrigger-English\MemoryTrigger-Korea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" />
+      <module fileurl="file://D:\MemoryTrigger-Korea\app\app.iml" filepath="D:\MemoryTrigger-Korea\app\app.iml" />
+    </modules>
+  </component>
+</project>

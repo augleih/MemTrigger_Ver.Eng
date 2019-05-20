@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <ImageButton
+        android:id="@+id/listImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/scroll"
+        android:layout_alignTop="@+id/homeBtn"
+        android:layout_marginRight="20dp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/list_btn" />
+
+    <ImageButton
+        android:id="@+id/homeBtn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="17dp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/deleteImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/scroll"
+        android:layout_alignTop="@+id/homeBtn"
+        android:layout_marginLeft="20dp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/del_btn" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="370dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/post2" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:layout_alignTop="@+id/alarmTime2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Contents"
+            android:textColor="#55608F"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:gravity="center" />
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/backwards_btn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignEnd="@+id/listImage"
+        android:layout_alignTop="@+id/forward_btn"
+        android:layout_gravity="center_vertical"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/backwards_btn" />
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="16dp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/stop_btn" />
+
+    <ImageButton
+        android:id="@+id/forward_btn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignStart="@+id/deleteImage"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="12dp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/forward_btn" />
+
+    <LinearLayout
+        android:id="@+id/rtLinear"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/scroll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/recordTime1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="5dp"
+            android:text="123456"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/recordTime2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="5dp"
+            android:text="1234"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@android:style/Widget.Material.Light.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="2"
+        android:paddingBottom="15dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/alarm_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/alarmTime1"
+        android:layout_gravity="center_vertical"
+        android:layout_toStartOf="@+id/alarmTime1"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/alarmTime1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginTop="36dp"
+        android:layout_toStartOf="@+id/alarmTime2"
+        android:text="18:00"
+        android:textColor="#747474"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/alarmTime2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/alarmTime1"
+        android:layout_alignEnd="@+id/scroll"
+        android:text="10월 26일"
+        android:textColor="#8b8b8b"
+        android:textSize="25dp" />
+
+</RelativeLayout>

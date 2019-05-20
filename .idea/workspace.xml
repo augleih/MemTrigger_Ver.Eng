@@ -15,17 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AlarmActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MemoryTrigger-English-master/app/src/main/java/com/google/gachon/software/reminderapp_eng/AlarmActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="950" />
